@@ -1,4 +1,6 @@
 import typescript from "rollup-plugin-typescript2";
+import preserveDirectives from "rollup-plugin-preserve-directives";
+import external from "rollup-plugin-peer-deps-external";
 
 export default [
   {
@@ -10,7 +12,6 @@ export default [
         exports: "named",
       },
     ],
-    external: ["postgres"],
-    plugins: [typescript()],
+    plugins: [typescript(), preserveDirectives(), external()],
   },
 ];

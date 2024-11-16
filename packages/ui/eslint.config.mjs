@@ -16,9 +16,6 @@ export default [
     },
     languageOptions: {
       parser: tseslint.parser,
-      parserOptions: {
-        project: true,
-      },
     },
     ignores: ["!.storybook"],
   },
