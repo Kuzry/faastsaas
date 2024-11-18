@@ -8,6 +8,7 @@ import {
   useState,
 } from "react";
 import { cx } from "../../index";
+import { Menu } from "lucide-react";
 
 type PropsWithChildrenAndClassName = PropsWithChildren & {
   className?: string;
@@ -74,7 +75,7 @@ export const FrontLayoutProvider = ({
 
 export const FrontLayoutBurgerClient = ({
   className,
-  children = "=",
+  children = <Menu size={14} />,
 }: PropsWithChildrenAndClassName) => {
   const { mobileNavbarOpened, setMobileNavbarOpened, desktopSize } =
     useFrontLayoutContext();
@@ -82,7 +83,7 @@ export const FrontLayoutBurgerClient = ({
   return (
     <button
       className={cx(
-        `mr-2 inline-block h-6 w-6 rounded bg-gray-200 px-2 ${desktopSize}:hidden`,
+        `mr-2 flex h-6 w-6 items-center justify-center rounded bg-gray-200 ${desktopSize}:hidden`,
         className
       )}
       onClick={() => setMobileNavbarOpened(!mobileNavbarOpened)}

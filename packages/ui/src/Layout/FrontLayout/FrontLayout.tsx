@@ -35,14 +35,14 @@ export const FrontLayoutHeader = ({
   className,
   children,
 }: PropsWithChildrenAndClassName) => (
-  <div
+  <header
     className={cx(
       "sticky flex h-14 items-center border-b border-gray-200",
       className
     )}
   >
     {children}
-  </div>
+  </header>
 );
 
 export const FrontLayoutNavbarMobile = ({
@@ -74,7 +74,7 @@ export const FrontLayoutSectionTitle = ({
   className,
   children,
 }: PropsWithChildrenAndClassName) => (
-  <div className={cx("", className)}>{children}</div>
+  <h2 className={cx("text-center text-4xl", className)}>{children}</h2>
 );
 
 export const FrontLayoutContainer = ({
@@ -82,6 +82,13 @@ export const FrontLayoutContainer = ({
   children,
 }: PropsWithChildrenAndClassName) => (
   <div className={cx("container", className)}>{children}</div>
+);
+
+export const FrontLayoutFooter = ({
+  className,
+  children,
+}: PropsWithChildrenAndClassName) => (
+  <footer className={cx("", className)}>{children}</footer>
 );
 
 export const FrontLayoutHero = ({

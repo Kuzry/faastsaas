@@ -9,6 +9,7 @@
     "dev:nextjs-skeleton": "npm run dev -w @faastsaas/nextjs-skeleton",
     "dev:auth": "npm run dev -w @faastsaas/auth",
     "dev:ui": "npm run dev -w @faastsaas/ui",
+    "storybook:ui": "npm run storybook -w @faastsaas/ui",
     "lint": "npm run lint:nextjs-skeleton && npm run lint:auth && npm run lint:ui",
     "lint:nextjs-skeleton": "npm run lint -w @faastsaas/nextjs-skeleton",
     "lint:auth": "npm run lint -w @faastsaas/auth",
