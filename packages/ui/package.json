@@ -1,6 +1,6 @@
 {
   "name": "@faastsaas/ui",
-  "version": "0.0.12",
+  "version": "0.0.20",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
@@ -17,6 +17,10 @@
     "./logo": {
       "types": "./dist/logo.d.ts",
       "default": "./dist/logo.mjs"
+    },
+    "./menu": {
+      "types": "./dist/menu.d.ts",
+      "default": "./dist/menu.mjs"
     }
   },
   "files": [

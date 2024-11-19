@@ -29,4 +29,17 @@ export default [
     plugins: [typescript(), preserveDirectives(), external()],
     external: ["react", "react-dom"],
   },
+  {
+    input: "src/menu.ts",
+    output: [
+      {
+        dir: "./dist",
+        format: "esm",
+        preserveModules: true,
+        entryFileNames: "[name].mjs",
+      },
+    ],
+    plugins: [typescript(), preserveDirectives(), external()],
+    external: ["react", "react-dom"],
+  },
 ];

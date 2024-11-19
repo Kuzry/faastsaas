@@ -17,6 +17,7 @@ export {
   FrontLayoutNavbarMobile,
   FrontLayoutMain,
   FrontLayoutSection,
+  FrontLayoutSectionTitleContainer,
   FrontLayoutSectionTitle,
   FrontLayoutContainer,
   FrontLayoutHero,

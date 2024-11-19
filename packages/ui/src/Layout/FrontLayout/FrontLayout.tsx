@@ -37,7 +37,7 @@ export const FrontLayoutHeader = ({
 }: PropsWithChildrenAndClassName) => (
   <header
     className={cx(
-      "sticky flex h-14 items-center border-b border-gray-200",
+      "border-primary-100 sticky flex h-14 items-center border-b",
       className
     )}
   >
@@ -65,10 +65,17 @@ export const FrontLayoutSection = ({
   className,
   children,
 }: PropsWithChildrenAndClassName) => (
-  <div className={cx("border-b border-gray-200 py-16", className)}>
+  <div className={cx("border-primary-200 border-t py-16", className)}>
     {children}
   </div>
 );
+
+export const FrontLayoutSectionTitleContainer = ({
+  className,
+  children,
+}: PropsWithChildrenAndClassName) => {
+  return <div className={cx("mb-10", className)}>{children}</div>;
+};
 
 export const FrontLayoutSectionTitle = ({
   className,
@@ -95,7 +102,9 @@ export const FrontLayoutFooter = ({
   className,
   children,
 }: PropsWithChildrenAndClassName) => (
-  <footer className={cx("", className)}>{children}</footer>
+  <footer className={cx("border-primary-200 border-t py-16", className)}>
+    {children}
+  </footer>
 );
 
 export const FrontLayoutHero = ({
@@ -104,7 +113,7 @@ export const FrontLayoutHero = ({
 }: PropsWithChildrenAndClassName) => (
   <div
     className={cx(
-      "mx-auto mb-10 mt-24 flex max-w-6xl flex-col items-center gap-6 text-center",
+      "mx-auto mb-10 mt-24 flex max-w-6xl flex-col items-center gap-6 py-16 text-center",
       className
     )}
   >
