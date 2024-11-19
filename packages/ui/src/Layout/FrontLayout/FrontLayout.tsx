@@ -74,7 +74,14 @@ export const FrontLayoutSectionTitle = ({
   className,
   children,
 }: PropsWithChildrenAndClassName) => (
-  <h2 className={cx("text-center text-4xl", className)}>{children}</h2>
+  <h3
+    className={cx(
+      "text-pretty text-center text-4xl font-medium tracking-tighter",
+      className
+    )}
+  >
+    {children}
+  </h3>
 );
 
 export const FrontLayoutContainer = ({
@@ -111,7 +118,7 @@ export const FrontLayoutHeroTitle = ({
 }: PropsWithChildrenAndClassName) => (
   <h1
     className={cx(
-      "text-balance py-6 text-5xl font-semibold leading-none tracking-tight sm:text-6xl md:text-7xl lg:text-7xl",
+      "text-pretty py-6 text-5xl font-semibold leading-none tracking-tight sm:text-6xl md:text-7xl lg:text-7xl",
       className
     )}
   >

@@ -24,7 +24,7 @@ export default {
 };
 
 type Story = StoryObj<typeof FrontLayoutRoot>;
-export const Basic: Story = {
+export const Default: Story = {
   render: () => (
     <FrontLayoutRoot>
       <FrontLayoutMobileOverlay />
@@ -43,12 +43,18 @@ export const Basic: Story = {
         <FrontLayoutSection>
           <FrontLayoutHero>
             <FrontLayoutHeroTitle>FrontLayoutHeroTitle</FrontLayoutHeroTitle>
-            <FrontLayoutHeroText>FrontLayoutHeroText</FrontLayoutHeroText>
+            <FrontLayoutHeroText>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              eu quam vestibulum, mollis nunc vel, suscipit ligula. Nunc laoreet
+              eros nec lorem ultricies, id vulputate lorem tempor. Morbi in
+              interdum dui. Ut id arcu ligula. Proin vitae tempus turpis. Nullam
+              nec bibendum odio. Sed vestibulum eros eget elit tempus gravida
+            </FrontLayoutHeroText>
           </FrontLayoutHero>
         </FrontLayoutSection>
         <FrontLayoutSection>
           <FrontLayoutSectionTitle>
-            FrontLayoutSectionTitle
+            People love using FaastSaas.
           </FrontLayoutSectionTitle>
         </FrontLayoutSection>
         <FrontLayoutSection>
