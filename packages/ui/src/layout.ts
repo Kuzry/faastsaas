@@ -26,4 +26,5 @@ export {
   FrontLayoutMobileOverlay,
   FrontLayoutMobileVisible,
   FrontLayoutDesktopVisible,
+  FrontLayoutFooter,
 } from "./Layout/FrontLayout/FrontLayout";
