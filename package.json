@@ -6,15 +6,18 @@
     "build:nextjs-skeleton": "npm run build -w @faastsaas/nextjs-skeleton",
     "build:auth": "npm run build -w @faastsaas/auth",
     "build:ui": "npm run build -w @faastsaas/ui",
+    "dev:cms": "npm run dev -w @faastsaas/cms",
     "dev:nextjs-skeleton": "npm run dev -w @faastsaas/nextjs-skeleton",
     "dev:auth": "npm run dev -w @faastsaas/auth",
     "dev:ui": "npm run dev -w @faastsaas/ui",
     "storybook:ui": "npm run storybook -w @faastsaas/ui",
-    "lint": "npm run lint:nextjs-skeleton && npm run lint:auth && npm run lint:ui",
+    "lint": "npm run lint:cms && npm run lint:nextjs-skeleton && npm run lint:auth && npm run lint:ui",
+    "lint:cms": "npm run lint -w @faastsaas/cms",
     "lint:nextjs-skeleton": "npm run lint -w @faastsaas/nextjs-skeleton",
     "lint:auth": "npm run lint -w @faastsaas/auth",
     "lint:ui": "npm run lint -w @faastsaas/ui",
-    "type-check": "npm run type-check:nextjs-skeleton && npm run type-check:auth && npm run type-check:ui",
+    "type-check": "npm run type-check:cms && npm run type-check:nextjs-skeleton && npm run type-check:auth && npm run type-check:ui",
+    "type-check:cms": "npm run type-check -w @faastsaas/cms",
     "type-check:nextjs-skeleton": "npm run type-check -w @faastsaas/nextjs-skeleton",
     "type-check:auth": "npm run type-check -w @faastsaas/auth",
     "type-check:ui": "npm run type-check -w @faastsaas/ui",
@@ -31,6 +34,6 @@
     "prettier-plugin-tailwindcss": "^0.6.8"
   },
   "engines": {
-    "node": ">=18.11"
+    "node": ">=22.11.0"
   }
 }
