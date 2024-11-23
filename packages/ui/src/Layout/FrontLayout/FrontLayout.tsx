@@ -113,7 +113,7 @@ export const FrontLayoutHero = ({
 }: PropsWithChildrenAndClassName) => (
   <div
     className={cx(
-      "mx-auto mb-10 mt-24 flex max-w-6xl flex-col items-center gap-6 py-16 text-center",
+      "mx-auto mb-10 mt-24 flex max-w-6xl flex-col items-center gap-6 py-16 text-center leading-9",
       className
     )}
   >
@@ -127,7 +127,7 @@ export const FrontLayoutHeroTitle = ({
 }: PropsWithChildrenAndClassName) => (
   <h1
     className={cx(
-      "text-pretty py-6 text-5xl font-semibold leading-none tracking-tight sm:text-6xl md:text-7xl lg:text-7xl",
+      "text-pretty py-6 text-5xl/tight font-semibold leading-none tracking-tight sm:text-6xl/tight md:text-7xl/tight lg:text-7xl/tight",
       className
     )}
   >
