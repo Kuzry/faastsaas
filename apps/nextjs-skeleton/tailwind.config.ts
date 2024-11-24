@@ -5,6 +5,8 @@ const config: Config = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/@faastsaas/ui/dist/**/*.{js,ts,jsx,tsx,mdx,mjs}",
     "./../../node_modules/@faastsaas/ui/dist/**/*.{js,ts,jsx,tsx,mdx,mjs}",
+    "./node_modules/@faastsaas/payments/dist/**/*.{js,ts,jsx,tsx,mdx,mjs}",
+    "./../../node_modules/@faastsaas/payments/dist/**/*.{js,ts,jsx,tsx,mdx,mjs}",
   ],
   theme: {
     container: {
