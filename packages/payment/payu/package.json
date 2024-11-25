@@ -1,11 +1,11 @@
 {
-  "name": "@faastsaas/payments",
+  "name": "@faastsaas/payu-payment",
   "version": "0.0.1",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "lint": "eslint ./src",
-    "type-check": "tsc"
+    "type-check": "tsc --noEmit"
   },
   "exports": {
     ".": {

@@ -1,11 +1,11 @@
 {
-  "name": "@faastsaas/ui",
+  "name": "@faastsaas/ui-react",
   "version": "0.0.24",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "lint": "eslint ./src",
-    "type-check": "tsc",
+    "type-check": "tsc --noEmit",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },

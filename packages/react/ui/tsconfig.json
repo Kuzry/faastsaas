@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "lib": ["ESNext"],
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "composite": true,
     "declaration": true,
     "declarationMap": false,
@@ -19,9 +19,16 @@
     "outDir": "dist",
     "rootDir": "src",
     "noEmit": true,
+    "allowJs": true,
+    "jsx": "react-jsx",
     "resolveJsonModule": true,
     "incremental": true
   },
   "include": ["src"],
-  "exclude": ["node_modules", "dist", "rollup.config.js"]
+  "exclude": [
+    "node_modules",
+    "dist",
+    "rollup.config.js",
+    "./src/**/*.stories.tsx"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "lib": ["ESNext"],
     "composite": true,
     "declaration": true,
     "declarationMap": false,
@@ -19,8 +19,6 @@
     "outDir": "dist",
     "rootDir": "src",
     "noEmit": true,
-    "allowJs": true,
-    "jsx": "react-jsx",
     "resolveJsonModule": true,
     "incremental": true
   },

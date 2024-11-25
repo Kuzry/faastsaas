@@ -1,23 +1,22 @@
 import eslint from "@eslint/js";
 import tseslint from "typescript-eslint";
-import nextPlugin from "@next/eslint-plugin-next";
+import storybook from "eslint-plugin-storybook";
 
 export default [
   eslint.configs.recommended,
   ...tseslint.configs.strict,
   ...tseslint.configs.stylistic,
+  ...storybook.configs["flat/recommended"],
   {
     rules: {
-      ...nextPlugin.configs.recommended.rules,
-      ...nextPlugin.configs["core-web-vitals"].rules,
       "no-console": "error",
     },
     plugins: {
       "@typescript-eslint": tseslint.plugin,
-      "@next/next": nextPlugin,
     },
     languageOptions: {
       parser: tseslint.parser,
     },
+    ignores: ["!.storybook"],
   },
 ];
