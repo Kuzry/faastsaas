@@ -20,8 +20,8 @@
   ],
   "dependencies": {
     "clsx": "^2.1.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.2",
@@ -36,8 +36,8 @@
     "@storybook/react-vite": "^8.4.5",
     "@storybook/test": "^8.4.5",
     "@types/eslint__js": "^8.42.3",
-    "@types/react": "^18.3.11",
-    "@types/react-dom": "^18.3.1",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.13.0",
     "eslint-plugin-storybook": "^0.11.0",

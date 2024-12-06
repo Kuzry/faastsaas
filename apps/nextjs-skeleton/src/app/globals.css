@@ -26,5 +26,5 @@ h3,
 h4,
 h5,
 h6 {
-  @apply text-darkgray-950;
+  /*@apply text-darkgray-950;*/
 }
