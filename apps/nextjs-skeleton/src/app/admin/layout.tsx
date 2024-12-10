@@ -8,7 +8,7 @@ import {
   AdminLayoutRoot,
   AdminLayoutMobileOverlay,
   AdminLayoutNavbarMobile,
-} from "@faastsaas/ui/layout";
+} from "@faastsaas/ui-react/layout";
 
 const Navbar = () => <div className="p-4">Super navbar 3000!</div>;
 

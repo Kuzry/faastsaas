@@ -3,7 +3,7 @@ import {
   FrontLayoutHeroText,
   FrontLayoutHeroTitle,
   FrontLayoutSection,
-} from "@faastsaas/ui/layout";
+} from "@faastsaas/ui-react/layout";
 
 export default function Home() {
   return (

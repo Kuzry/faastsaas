@@ -6,8 +6,8 @@ import {
   FrontLayoutMobileOverlay,
   FrontLayoutNavbarMobile,
   FrontLayoutBurger,
-} from "@faastsaas/ui/layout";
-import { Logo, LogoDescription } from "@faastsaas/ui/logo";
+} from "@faastsaas/ui-react/layout";
+import { Logo, LogoDescription } from "@faastsaas/ui-react/logo";
 import { ReactNode } from "react";
 
 export default function FrontLayout({

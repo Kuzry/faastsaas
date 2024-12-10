@@ -3,8 +3,8 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   content: [
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/@faastsaas/ui/dist/**/*.{js,ts,jsx,tsx,mdx,mjs}",
-    "./../../node_modules/@faastsaas/ui/dist/**/*.{js,ts,jsx,tsx,mdx,mjs}",
+    "./node_modules/@faastsaas/ui-react/dist/**/*.{js,ts,jsx,tsx,mdx,mjs}",
+    "./../../node_modules/@faastsaas/ui-react/dist/**/*.{js,ts,jsx,tsx,mdx,mjs}",
     "./node_modules/@faastsaas/payment/dist/**/*.{js,ts,jsx,tsx,mdx,mjs}",
     "./../../node_modules/@faastsaas/payment/dist/**/*.{js,ts,jsx,tsx,mdx,mjs}",
   ],

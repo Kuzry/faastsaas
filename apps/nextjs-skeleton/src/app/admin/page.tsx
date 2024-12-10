@@ -1,4 +1,4 @@
-import { AdminLayoutContainer } from "@faastsaas/ui/layout";
+import { AdminLayoutContainer } from "@faastsaas/ui-react/layout";
 
 export default function Admin() {
   return (
